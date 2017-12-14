@@ -1,0 +1,29 @@
+{
+  "name": "mock",
+  "version": "1.0.5",
+  "description": "mock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yixianle/webpack-mock.git"
+  },
+  "keywords": [
+    "mock",
+    "webpack"
+  ],
+  "author": "yixianle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yixianle/webpack-mock/issues"
+  },
+  "homepage": "https://github.com/yixianle/webpack-mock#readme",
+  "dependencies": {
+    "json-schema-faker": "0.4.3",
+    "lodash": "^4.17.4",
+    "mockjs": "^1.0.1-beta3",
+    "rd": "^1.1.2"
+  }
+}
