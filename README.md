@@ -19,12 +19,12 @@
 ## 使用
 1、 安装
 ```
-nbm i mock --save-dev
+nbm i webpack-server-mock --save-dev
 ```
 2、 在webpack配置中，调用mock注册相关中间件
 ```
 
-const Mock = require('mock');
+const Mock = require('webpack-server-mock');
 module.exports={
     entry: {
         app: config.resolve('src', 'index.js')
